@@ -22,7 +22,7 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-            cargo binstall presenterm@${{ env.PRESENTERM_VERSION }}
+            cargo install presenterm@${{ env.PRESENTERM_VERSION }}
             apt install weasyprint=${{ env.WEASYPRINT_VERSION }}
             npm install -g @marp-team/marp-cli@${{ env.MARP_CLI_VERSION }}
             presenterm --export-html presentation.md -o ./public/index.html
