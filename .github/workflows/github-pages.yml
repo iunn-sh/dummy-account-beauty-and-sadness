@@ -33,6 +33,8 @@ jobs:
       - name: Build 🔧
         run: |
           mkdir public
+          presenterm -V
+          presenterm --export-html presentation.md -o ./public/index.html
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
