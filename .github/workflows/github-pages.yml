@@ -33,6 +33,7 @@ jobs:
       - name: Build 🔧
         run: |
           mkdir public
+          ls -al
           presenterm -V
           presenterm --export-html presentation.md -o ./public/index.html
 
