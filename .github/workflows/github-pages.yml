@@ -20,10 +20,9 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
 
-      # - name: Install cargo-binstall
-      #   uses: cargo-bins/cargo-binstall@v1.16.6
-      - name: Install presenterm
+      - name: Install cargo-binstall
         uses: cargo-bins/cargo-binstall@v1.16.6
+      - name: Install presenterm
         run:  cargo binstall presenterm@${{ env.PRESENTERM_VERSION }}
       - name: Install weasyprint
         uses: ConorMacBride/install-package@v1.1.0
