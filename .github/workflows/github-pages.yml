@@ -20,9 +20,14 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
 
+      - name: Install cargo-binstall
+        uses: cargo-bins/cargo-binstall@v1.16.6
+      - name: Install presenterm
+        run: cargo binstall presenterm@${{ env.PRESENTERM_VERSION }}
+
       - name: Install and Build 🔧
         run: |
-            cargo install presenterm@${{ env.PRESENTERM_VERSION }}
+            # cargo install presenterm@${{ env.PRESENTERM_VERSION }}
             pip install weasyprint==${{ env.WEASYPRINT_VERSION }}
             presenterm --export-html presentation.md -o ./public/index.html
 
