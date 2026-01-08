@@ -17,4 +17,8 @@ presenterm presentation.md
 # export
 presenterm --export-pdf presentation.md
 presenterm --export-html presentation.md
+
+# export for Github Pages
+mkdir public
+presenterm --export-html presentation.md -o ./public/index.html
 ```
