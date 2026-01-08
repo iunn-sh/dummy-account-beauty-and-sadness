@@ -32,7 +32,7 @@ jobs:
 
       - name: Build 🔧
         run: |
-          mkdir public
+          mkdir ./public
           presenterm --export-html presentation.md -o ./public/index.html
 
       - name: Deploy 🚀
