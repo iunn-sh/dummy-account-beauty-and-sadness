@@ -1,9 +1,8 @@
-name: presenterm-to-pages
-concurrency: presenterm-to-pages
+name: marp-to-pages
+concurrency: marp-to-pages
 
 env:
-  PRESENTERM_VERSION: 0.15.1
-  WEASYPRINT_VERSION: 67.0
+  MARP_CLI_VERSION: 4.2.3
 
 on:
   push:
@@ -20,20 +19,10 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
 
-      # - name: Install presenterm
-      #   uses: taiki-e/install-action@v2.65.15
-      #   with: 
-      #     tool: presenterm@${{ env.PRESENTERM_VERSION }}
-      # - name: Install weasyprint
-      #   uses: durandtibo/pip-install-package-action@v0.4.0
-      #   with:
-      #     package-name: 'weasyprint'
-      #     package-version: ${{ env.WEASYPRINT_VERSION }}
-
-      # - name: Build 🔧
-      #   run: |
-      #     mkdir public
-      #     presenterm --export-html presentation.md -o ./public/index.html
+      - name: Install and Build 🔧
+        run: |
+            npm install -g @marp-team/marp-cli@${{ env.MARP_CLI_VERSION }}
+            marp --theme theme/aqua.css presentation.md --html -o ./public/index.html
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
