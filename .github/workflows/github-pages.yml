@@ -31,7 +31,9 @@ jobs:
           package-version: ${{ env.WEASYPRINT_VERSION }}
 
       - name: Build 🔧
-        run: presenterm --export-html presentation.md -o ./public/index.html
+        run: |
+          mkdir public
+          presenterm --export-html presentation.md -o ./public/index.html
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
