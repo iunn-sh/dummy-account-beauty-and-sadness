@@ -24,22 +24,14 @@ jobs:
         uses: taiki-e/install-action@v2.65.15
         with: 
           tool: presenterm@${{ env.PRESENTERM_VERSION }}
-      # - name: Install presenterm
-      #   run:  cargo binstall presenterm@${{ env.PRESENTERM_VERSION }}
       - name: Install weasyprint
         uses: durandtibo/pip-install-package-action@v0.4.0
         with:
           package-name: 'weasyprint'
           package-version: ${{ env.WEASYPRINT_VERSION }}
-      # - name: Install weasyprint
-      #   uses: ConorMacBride/install-package@v1.1.0
-      #   with:
-      #     apt: weasyprint=${{ env.WEASYPRINT_VERSION }}
+
       - name: Build 🔧
-        run: |
-            # cargo install presenterm@${{ env.PRESENTERM_VERSION }}
-            # pip install weasyprint==${{ env.WEASYPRINT_VERSION }}
-            presenterm --export-html presentation.md -o ./public/index.html
+        run: presenterm --export-html presentation.md -o ./public/index.html
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
