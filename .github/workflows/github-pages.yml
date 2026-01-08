@@ -20,13 +20,13 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
 
-      - name: Install presenterm
+      - name: Install and Build 🔧
         uses: cargo-bins/cargo-binstall@v1.16.6
         with: 
           tool: presenterm@${{ env.PRESENTERM_VERSION }}
       # - name: Install presenterm
       #   run:  cargo binstall presenterm@${{ env.PRESENTERM_VERSION }}
-      - name: Install weasyprint
+      # - name: Install weasyprint
         uses: durandtibo/pip-install-package-action@v0.4.0
         with:
           package-name: 'weasyprint'
@@ -35,7 +35,7 @@ jobs:
       #   uses: ConorMacBride/install-package@v1.1.0
       #   with:
       #     apt: weasyprint=${{ env.WEASYPRINT_VERSION }}
-      - name: Build 🔧
+      # - name: Build 🔧
         run: |
             # cargo install presenterm@${{ env.PRESENTERM_VERSION }}
             # pip install weasyprint==${{ env.WEASYPRINT_VERSION }}
