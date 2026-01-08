@@ -1,4 +1,5 @@
 ---
+title: "人頭帳戶的美麗與哀愁"
 marp: true
 footer: Powered by Aqua / Marp
 paginate: true
