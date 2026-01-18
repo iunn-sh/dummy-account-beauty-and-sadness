@@ -6,12 +6,14 @@ paginate: true
 
 <!-- _class: lead -->
 <!-- _paginate: false -->
-<!-- _header: 法律專題課程 -->
-<!-- _footer: 2026.10.16 -->
 
 ![bg](https://images.unsplash.com/photo-1720918496286-9431aef59c85)
 
+法律專題課程
+
 # 人頭帳戶的美麗與哀愁
+
+`2026.10.16`
 
 ---
 
