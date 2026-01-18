@@ -1,51 +1,94 @@
 ---
 title: "人頭帳戶的美麗與哀愁"
-marp: true
-footer: Powered by Aqua / Marp
+theme: theia
 paginate: true
-headingDivider: 1
-theme: aqua
 ---
 
-<!--
-_class: lead
-_paginate: skip
-_footer: ""
--->
+# 人頭帳戶的美麗與哀愁
 
-# Aqua: <BR/> A Simple and Elegant Marp Theme
+---
 
-## Date
+# Theia Theme Demo
 
-## Name
+This presentation tests the customizable **Theia Marp theme**.
 
-## Affiliation
+---
 
-# How to use
+## Typography and Links
 
-1. Apply `aqua.css`.
-   - Change the logo by modifying `logo-url` and `logo-blue-url`.
-     ```css
-     --logo-url: url(path-to-your-logo.png);
-     --logo-blue-url: url(path-to-your-logo.png);
-     ```
-2. The title page can be created with the `lead` class.
-3. Also, we have an another style of the title page with blue background: `blue`.
-4. As in the original theme `gradient`, we have a `tinytext` class.
-   This might be useful for the References slide.
-5. Have fun!
+This slide demonstrates:
 
-# Acknowledgement
+- List formatting
+  - Nested item
+    - Deeply nested item
+- **Bold**, *Italic*, and ~~Strikethrough~~
+- Link to [somewhere](https://lorenzopieri.dev)
 
-This theme has been created by modifying and adding code to the theme [`gradient`](https://rnd195.github.io/marp-community-themes/theme/gradient.html).
+---
 
-- Big thanks to the author.
+## Table
 
-The primary color (blue) of this theme is picked up from the [Marp's public blog page](https://marp.app/blog).
+| ID   | Description                         | Status      |
+|------|-------------------------------------|-------------|
+| #101 | Login button unresponsive on mobile | Open        |
+| #102 | Incorrect total in shopping cart    | In Progress |
+| #103 | Profile picture upload fails         | Resolved    |
+| #104 | 404 error on FAQ page               | Won't Fix   |
+| #105 | Search results not paginated        | In Review   |
 
-- And also the logo.
-- Big thanks to the creater of Marp and those who contribute to the eco-system.
+---
 
-# Create beautiful slide decks using <br/> an intuitive Markdown experience
+## Code
 
-<!-- _class: blue -->
+Inline code: `CONSTANT`
+
+Block code:
+
+```tsx
+interface GreetProps {
+  name: string
+}
+
+const Greet = ({ name }: GreetProps) => {
+  return <span>Hello, {name}!</span>
+}
+```
+
+---
+
+## Blockquote
+
+> Design is not just what it looks like and feels like. Design is how it works.
+> — Steve Jobs
+
+---
+
+<!-- _header: Header
+_footer: Footer -->
+
+## Header & Footer
+
+This slide shows the header and the footer in action.
+
+---
+
+<!-- _class: lead -->
+
+## Lead Slide
+
+This slide uses the `lead` style with a vibrant background and white highlights.
+
+> Make a bold first impression <mark>about something significant</mark>.
+
+---
+
+<!-- _class: invert -->
+
+## Invert Slide
+
+This slide uses the `invert` style with a dark background and bright highlights.
+
+- Highlight color is used for [links](https://example.com)
+- Also applies to <mark>highlighted text</mark> and block borders
+
+> It brings contrast and clarity — <mark>perfect for emphasis</mark>.

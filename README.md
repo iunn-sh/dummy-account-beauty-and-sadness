@@ -4,7 +4,9 @@
 人頭帳戶的美麗與哀愁
 
 * Framework [marp-team/marp-cli](https://github.com/marp-team/marp-cli)
-* Theme [sano-jin/marp-theme-aqua](https://github.com/sano-jin/marp-theme-aqua)
+* Theme [LRNZ09/marp-theia-theme](https://github.com/LRNZ09/marp-theia-theme)
+* Font [IBM PlexSans TC](https://font.emtech.cc/fonts/IBMPlexSansTC)
+* Font [FiraMono](https://font.emtech.cc/fonts/FiraMono)
 
 
 ```
@@ -15,5 +17,5 @@ brew install marp-cli
 marp --server --html ./
 
 # export
-marp --theme theme/aqua.css --html presentation.md
+marp --theme theme/theia.css --html presentation.md
 ```
