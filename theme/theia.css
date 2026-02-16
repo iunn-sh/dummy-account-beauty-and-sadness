@@ -119,7 +119,8 @@ footer {
 
 /* Pagination */
 section::after {
-  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+  /*content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);*/
+  content: attr(data-marpit-pagination);
   position: absolute;
   font-size: large;
 }

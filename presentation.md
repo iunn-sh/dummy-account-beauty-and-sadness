@@ -17,6 +17,25 @@ paginate: true
 
 ---
 
+## 知識 :vs: 道德
+
+道德派 quote
+- [比優秀更重要的事 「品格」決定孩子的未來](https://futureparenting.cwgv.com.tw/family/content/index/21037)
+- [一個哈佛菁英的覺醒：卓越的人生，需要一點「道德雄心」](https://www.businessweekly.com.tw/careers/blog/3020725)
+
+知識派 quote
+- [Klaw律師](https://x.com/klaw1207/status/2016512631126040947)
+- [知識與道德](https://vocus.cc/article/66e44970fd897800017e97e8)
+
+---
+
+## 法律知識問答
+
+- 哪些行為可能有罪
+- 罰多重
+
+---
+
 # Theia Theme Demo
 
 This presentation tests the customizable **Theia Marp theme**.
@@ -105,10 +124,18 @@ This slide uses the `invert` style with a dark background and bright highlights.
 ---
 
 <!-- _class: lead -->
+<!-- _paginate: false -->
 
 ![bg](https://images.unsplash.com/photo-1704113953184-3490c1122453)
 
 ### Powered By 以上
 
 Github [iunn-sh/dummy-account-beauty-and-sadness](https://github.com/iunn-sh/dummy-account-beauty-and-sadness) ![GitHub License](https://img.shields.io/github/license/iunn-sh/dummy-account-beauty-and-sadness?style=flat-square)
+
+| | Credit |
+| --: | :-- |
+| Framework | [marp-team/marp-cli](https://github.com/marp-team/marp-cli) |
+| Theme | [LRNZ09/marp-theia-theme](https://github.com/LRNZ09/marp-theia-theme) |
+| Font | [IBM PlexSans TC](https://font.emtech.cc/fonts/IBMPlexSansTC) + [FiraMono](https://font.emtech.cc/fonts/FiraMono) |
+| Image | [Unsplash](https://unsplash.com/) |
 
