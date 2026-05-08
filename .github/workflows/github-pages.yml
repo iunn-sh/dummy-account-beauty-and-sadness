@@ -2,7 +2,7 @@ name: marp-to-pages
 concurrency: marp-to-pages
 
 env:
-  MARP_CLI_VERSION: 4.2.3
+  MARP_CLI_VERSION: 4.4.0
 
 on:
   push:
