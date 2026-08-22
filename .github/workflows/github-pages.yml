@@ -2,7 +2,7 @@ name: marp-to-pages
 concurrency: marp-to-pages
 
 env:
-  MARP_CLI_VERSION: 4.4.0
+  MARP_CLI_VERSION: 4.5.0
 
 on:
   push:
@@ -22,7 +22,7 @@ jobs:
       - name: Install and Build 🔧
         run: |
             npm install -g @marp-team/marp-cli@${{ env.MARP_CLI_VERSION }}
-            marp --theme theme/theia.css presentation.md --html -o ./public/index.html
+            marp --theme theme/marp-aurora-theme.css presentation.md --html -o ./public/index.html
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4

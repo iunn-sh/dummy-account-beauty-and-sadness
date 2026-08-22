@@ -1,8 +1,13 @@
 /*!
  * Marp / Marpit customizable theme.
  *
- * @theme theia
- * @author Lorenzo Pieri
+ * @theme aurora
+ * @version 1.0.0
+ * @author LRNZ09
+ *
+ * @auto-scaling true
+ * @size 16:9 1280px 720px
+ * @size 4:3 960px 720px
  */
 
 /* Theme import */
@@ -20,7 +25,6 @@
   --color-dark: #000000;      /* Black */
   --color-primary: #00509D;   /* Steel Azure */
   --color-secondary: #FDC500; /* School Bus Yellow */
-  /* inspired by https://coolors.co/palette/00296b-003f88-00509d-fdc500-ffd500 */
 
   /* Fonts */
   --font-default: "IBMPlexSansTC", sans-serif;
