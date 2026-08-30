@@ -4,7 +4,7 @@
 人頭帳戶的美麗與哀愁
 
 * Framework [marp-team/marp-cli](https://github.com/marp-team/marp-cli)
-* Theme [LRNZ09/marp-theia-theme](https://github.com/LRNZ09/marp-theia-theme)
+* Theme [LRNZ09/aurora](https://github.com/LRNZ09/aurora)
 * Font [IBM PlexSans TC](https://font.emtech.cc/fonts/IBMPlexSansTC)
 * Font [FiraMono](https://font.emtech.cc/fonts/FiraMono)
 * Image [Unsplash](https://unsplash.com/)

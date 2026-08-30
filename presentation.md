@@ -43,23 +43,51 @@ paginate: true
 
 罰多重：由重到輕排序
 - 殺人 / 重傷 / 傷害
-- 擄人勒贖 / 強盜 / 搶奪 / 竊盜
+- 強盜 / 搶奪 / 竊盜 / 侵占
 - 電信詐欺 / 詐欺 / 偽造文書
 - 洗錢
 
 ---
 
+<style scoped>
+li {
+  font-size: 0.5em;
+}
+</style>
+
 ### 生命、身體
 
-殺人 / 重傷 / 傷害
+| 刑法 | 罪名 | 罰則 |
+| :--- | ---: | :--- |
+| §271 I | 殺人 | 死刑、無期徒刑或10年以上有期徒刑 <small>:one:</small> |
+| §278 I | 重傷 | 5年以上12年以下有期徒刑 <small>:two:</small> |
+| §277 I | 傷害 | 5年以下有期徒刑、拘役或50萬元以下罰金 <small>:three:</small> |
 
-- 殺人 / 重傷 / 傷害
+1. 殺人者，處死刑、無期徒刑或10年以上有期徒刑。
+2. 使人受重傷者，處5年以上12年以下有期徒刑。 
+3. 傷害人之身體或健康者，處5年以下有期徒刑、拘役或50萬元以下罰金。
 
 ---
 
+<style scoped>
+li {
+  font-size: 0.5em;
+}
+</style>
+
 ### 自由、財產
 
-- 擄人勒贖 / 強盜 / 搶奪 / 竊盜
+| 刑法 | 罪名 | 罰則 |
+| :--- | ---: | :--- |
+| §325 I | 強盜 | 5年以上有期徒刑 <small>:one:</small> |
+| §328 I | 搶奪 | 6月以上5年以下有期徒刑 <small>:two:</small> |
+| §320 I | 竊盜 | 5年以下有期徒刑、拘役或50萬元以下罰金 <small>:three:</small> |
+| §335 I | 侵占 | 5年以下有期徒刑、拘役或科或併科3萬元以下罰金 <small>:four:</small> |
+
+1. 意圖為自己或第三人不法之所有，以強暴、脅迫、藥劑、催眠術或他法，至使不能抗拒，而取他人之物或使其交付者，為強盜罪，處5年以上有期徒刑。
+2. 意圖為自己或第三人不法之所有，而搶奪他人之動產者，處6月以上5年以下有期徒刑。
+3. 意圖為自己或第三人不法之所有，而竊取他人之動產者，為竊盜罪，處5年以下有期徒刑、拘役或50萬元以下罰金。
+4. 意圖為自己或第三人不法之所有，而侵占自己持有他人之物者，處5年以下有期徒刑、拘役或科或併科3萬元以下罰金。
 
 ---
 
@@ -322,6 +350,14 @@ p,li {
 
 ---
 
+<!-- _class: lead -->
+
+> Cleverness is a gift, kindness is a choice.
+> 聰明是一種天賦，而善良是一種選擇。
+> — Jeff Bezos
+
+---
+
 # Theia Theme Demo
 
 This presentation tests the customizable **Theia Marp theme**.
@@ -421,7 +457,7 @@ Github [iunn-sh/dummy-account-beauty-and-sadness](https://github.com/iunn-sh/dum
 | | Credit |
 | --: | :-- |
 | Framework | [marp-team/marp-cli](https://github.com/marp-team/marp-cli) |
-| Theme | [LRNZ09/marp-theia-theme](https://github.com/LRNZ09/marp-theia-theme) |
+| Theme | [LRNZ09/aurora](https://github.com/LRNZ09/aurora) |
 | Font | [IBM PlexSans TC](https://font.emtech.cc/fonts/IBMPlexSansTC) + [FiraMono](https://font.emtech.cc/fonts/FiraMono) |
 | Image | [Unsplash](https://unsplash.com/) |
 
