@@ -1,0 +1,57 @@
+/* @theme A4 */
+
+@import 'default';
+
+/* Font import */
+@import url("https://font.emtech.cc/css/IBMPlexSansTC?weight=400,700");
+@import url("https://font.emtech.cc/css/FiraMono?weight=400,700");
+
+/* Variables using Gaia-compatible names */
+:root {
+  /* Fonts */
+  --font-default: "IBMPlexSansTC", sans-serif;
+  --font-mono: "FiraMono", monospace;
+}
+
+section {
+  /* A4 document size */
+  width: 210mm;
+  height: 297mm;
+  /* align top */
+  align-content: start;
+  font-family: var(--font-default);
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+li {
+  font-size: 20px;
+}
+
+table {
+  font-size: 18px;
+}
+
+pre code {
+  font-family: var(--font-mono);
+}
+
+/* Pagination */
+section::after {
+  content: attr(data-marpit-pagination);
+  font-size: large;
+}

@@ -4,7 +4,7 @@
 人頭帳戶的美麗與哀愁
 
 * Framework [marp-team/marp-cli](https://github.com/marp-team/marp-cli)
-* Theme [LRNZ09/aurora](https://github.com/LRNZ09/aurora)
+* Theme [LRNZ09/aurora](https://github.com/LRNZ09/aurora) + [pn11/marp-A4-theme](https://github.com/pn11/marp-A4-theme)
 * Font [IBM PlexSans TC](https://font.emtech.cc/fonts/IBMPlexSansTC)
 * Font [FiraMono](https://font.emtech.cc/fonts/FiraMono)
 * Image [Unsplash](https://unsplash.com/)
@@ -17,5 +17,6 @@ brew install marp-cli
 marp --server --html ./
 
 # export
-marp --theme theme/theia.css --html presentation.md
+marp --theme theme/marp-aurora-theme.css --html presentation.md
+marp --browser-path $(which chromium) --theme theme/a4.css --pdf worksheet.md
 ```
