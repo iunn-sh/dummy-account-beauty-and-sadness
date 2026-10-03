@@ -7,6 +7,8 @@ paginate: true
 <!-- _class: lead -->
 <!-- _paginate: false -->
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1"></script>
+
 ![bg](https://images.unsplash.com/photo-1720918496286-9431aef59c85)
 
 法律專題課程
@@ -104,6 +106,9 @@ li {
 table {
   font-size: 0.8em;
 }
+ul {
+  list-style-type: none;
+}
 </style>
 
 ## 詐欺集團組織簡介
@@ -117,7 +122,7 @@ table {
 | 監控手 | 監控車手領錢狀況 |
 | 收水手 | 收受車手提領出的贓款，再把錢交給上手，或透過各管道輾轉將錢交回集團 |
 
-* 人數分配？
+* :small_red_triangle: 人數分配
 
 ---
 
@@ -125,11 +130,162 @@ table {
 
 ## 詐欺集團組織簡介
 
-由於首腦通常隱身幕後，因此往往也是最難抓到的詐騙集團成員。
+由於**首腦**通常隱身幕後，因此往往也是最難抓到的詐騙集團成員。
 
 收水手的功能在於透過輾轉交付金錢的過程，增加金流上的斷點、造成警方查緝困難。
 
-由於取簿手、車手、收水手的工作內容需要在外拋頭露面，因而也是整個詐騙集團中最容易遭查獲、取代性也最高的成員，所以也是詐欺集團成員最有可能利用圈套誘使民眾前往擔任的角色。
+由於**取簿手**、**車手**、**收水手**的工作內容需要在外拋頭露面，因而也是整個詐騙集團中最容易遭查獲、取代性也最高的成員，所以也是詐欺集團成員最有可能利用圈套誘使民眾前往擔任的角色。
+
+---
+
+<!-- _footer: "[法務統計 2022-2026](https://www.rjsd.moj.gov.tw/RJSDWeb/visualize/Visualization.aspx?kind=PC&d=12)" -->
+
+<style scoped>
+div {
+  height: 85%;
+  width: 100%;
+}
+</style>
+
+### 電信網路詐欺案件 — 地檢署偵查起訴人數
+
+<div align="center">
+  <canvas id="barChartProsecute"></canvas>
+</div>
+
+<script>
+  const ctxProsecute = document.getElementById('barChartProsecute');
+
+  new Chart(ctxProsecute, {
+    type: 'bar',
+    data: {
+      labels: ['2022', '2023', '2024', '2025', '2026.01-08'],
+      datasets: [{
+        label: '單純提供人頭帳戶（1-8月）',
+        data: [20169, 26224, 18908, 21411, 19429],
+        stack: '人頭帳戶',
+        order: 1,
+        borderWidth: 1
+      },
+      {
+        label: '單純提供人頭帳戶（9-12月）',
+        data: [(32698-20169), (40942-26224), (28732-18908), (32552-21411), 0],
+        stack: '人頭帳戶',
+        order: 2,
+        borderWidth: 1
+      },
+      {
+        label: '一般電信詐欺（1-8月）',
+        data: [12365, 16958, 19250, 20526, 20170],
+        stack: '一般電信詐欺',
+        order: 3,
+        borderWidth: 1
+      },
+      {
+        label: '一般電信詐欺（9-12月）',
+        data: [(20045-12365), (27025-16958), (28597-19250), (30559-20526), 0],
+        stack: '一般電信詐欺',
+        order: 4,
+        borderWidth: 1
+      },
+      {
+        label: '單純車手（1-8月）',
+        data: [5663, 4747, 10798, 23612, 28653],
+        stack: '車手',
+        order: 5,
+        borderWidth: 1
+      },
+      {
+        label: '單純車手（9-12月）',
+        data: [(8027-5663), (8516-4747), (20003-10798), (39611-23612), 0],
+        stack: '車手',
+        order: 6,
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        x: {
+          stacked: true,
+        },
+        y: {
+          stacked: true,
+          beginAtZero: true,
+          max: 45000,
+          title: {
+            display: true,
+            text: '人',
+          }
+        }
+      }
+    }
+  });
+</script>
+
+---
+
+<!-- _footer: "[法務統計 2022-2026](https://www.rjsd.moj.gov.tw/RJSDWeb/visualize/Visualization.aspx?kind=PC&d=12)" -->
+
+<style scoped>
+div {
+  height: 85%;
+  width: 100%;
+}
+</style>
+
+### 電信網路詐欺案件 — 地檢署偵查起訴人數
+
+<div align="center">
+  <canvas id="barChartProsecutePartial"></canvas>
+</div>
+
+<script>
+  const ctxProsecutePartial = document.getElementById('barChartProsecutePartial');
+
+  new Chart(ctxProsecutePartial, {
+    type: 'bar',
+    data: {
+      labels: ['2022', '2023', '2024', '2025', '2026.01-08'],
+      datasets: [{
+        label: '單純提供人頭帳戶（1-8月）',
+        data: [20169, 26224, 18908, 21411, 19429],
+        stack: '人頭帳戶',
+        order: 1,
+        borderWidth: 1
+      },
+      {
+        label: '一般電信詐欺（1-8月）',
+        data: [12365, 16958, 19250, 20526, 20170],
+        stack: '一般電信詐欺',
+        order: 3,
+        borderWidth: 1
+      },
+      {
+        label: '單純車手（1-8月）',
+        data: [5663, 4747, 10798, 23612, 28653],
+        stack: '車手',
+        order: 5,
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        x: {
+          stacked: true,
+        },
+        y: {
+          stacked: true,
+          beginAtZero: true,
+          max: 45000,
+          title: {
+            display: true,
+            text: '人',
+          }
+        }
+      }
+    }
+  });
+</script>
 
 ---
 
