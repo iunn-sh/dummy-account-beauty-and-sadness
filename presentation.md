@@ -6,6 +6,7 @@ paginate: true
 
 <!-- _class: lead -->
 <!-- _paginate: false -->
+<!-- _footer: Image by [Moralis Tsai](https://unsplash.com/photos/a-view-of-a-body-of-water-from-a-pier-ba5j0gV-ovU) -->
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1"></script>
 
@@ -21,13 +22,36 @@ paginate: true
 
 ---
 
-## 法律知識問答 — 基礎 :leaves:
+<!-- _class: chapter -->
+<!-- _footer: Image by [Tsaiwen Hsu](https://unsplash.com/photos/orange-and-white-rope-on-brown-wooden-post-T5BcH2BN8dw) -->
+
+![bg right:50%](https://images.unsplash.com/photo-1609049671675-df6c7a2d4d8f)
+
+## 法律知識問答
+
+基礎
+進階
+統計
+
+---
+
+<!-- _footer: Image by [Bernard Hermant](https://unsplash.com/photos/a-white-wall-with-a-bunch-of-white-squares-on-it-UsmYC6-Ixpc) -->
+
+![bg](https://images.unsplash.com/photo-1570401720350-cdd17d5b4730)
+
+<style scoped>
+ul {
+  list-style-type: none;
+}
+</style>
+
+## 法律知識問答 — 基礎 :leaves::clipboard:
 
 哪些行為可能構成犯罪？
 
-:identification_card: 撿到身分證後放在家中兩週，期間用撿到身分證的影本申請貸款
-:satellite: 好心幫朋友續約電信門號，所以在門市代填個人資料
-:bank: 出借身分證給朋友，讓信用不好的朋友可以申請網路銀行帳戶
+* :identification_card: 撿到身分證後放在家中兩週，期間用撿到身分證的影本申請貸款
+* :satellite: 好心幫朋友續約電信門號，所以在門市代填個人資料
+* :bank: 出借身分證給朋友，讓信用不好的朋友可以申請網路銀行帳戶
 
 ---
 
@@ -44,8 +68,8 @@ ul {
 
 :identification_card: 撿到身分證後放在家中兩週，期間用撿到身分證的影本申請貸款
 * 民眾常誤以為拾得身分證可以先保留，但未即時送交警局，已可能觸犯侵占遺失物罪；若進一步使用，甚至構成偽造文書或冒名頂替。
-* [例] 某民眾撿到身分證後放在家中兩週未處理，警方調閱監視器追查失主遭冒用情況時，該民眾因遲未歸還遭依刑法侵占遺失物函送檢方，且須出庭說明，造成相當困擾。
-* 影本同樣具有代表性，不可任意挪用。若將影本拿去申貸、開戶或其他未經同意用途，即屬偽造文書與個資法違反。
+* [例] 某民眾撿到身分證後放在家中兩週未處理，警方調閱監視器追查失主遭冒用情況時，該民眾因遲未歸還遭依刑法侵占遺失物函送檢方，且須出庭說明。
+* 影本同樣具有代表性，不可任意挪用。若將影本拿去申貸、開戶或其他未經同意用途，即屬偽造文書與個人資料保護法違反。
 * [例] 租屋仲介保留房客身分證影本，後擅自將影本提供給貸款代辦使用。借款責任落到房客身上，該房客遭銀行追討近百萬債務，報案後才查出影本遭非法使用，仲介與代辦均遭起訴。
 
 ---
@@ -85,6 +109,10 @@ ul {
 * [例] 大學生黃女應徵「居家打字員」，依指示上傳身分證後即遭冒名辦理五個銀行帳戶。事後警方以監視器比對提出傳喚，經查清後才解除嫌疑。
 
 ---
+
+<!-- _footer: Image by [Olia Gozha](https://unsplash.com/photos/white-book-marker-on-book-page-J4kK8b9Fgj8) -->
+
+![bg](https://images.unsplash.com/photo-1527176930608-09cb256ab504)
 
 <style scoped>
 ul {
@@ -177,7 +205,7 @@ ul {
 }
 </style>
 
-## 詐欺集團組織簡介
+## 詐欺集團組織簡介 :knot::clipboard:
 
 | 角色 | 說明 |
 | ---: | :--- |
@@ -188,13 +216,14 @@ ul {
 | 監控手 | 監控車手領錢狀況 |
 | 收水手 | 收受車手提領出的贓款，再把錢交給上手，或透過各管道輾轉將錢交回集團 |
 
-* :small_red_triangle: 人數分配
+* :small_red_triangle: 人數分配？
 
 ---
 
+<!-- _header: 詐欺集團 -->
 <!-- _footer: "[你了解詐騙集團嗎? 詐欺集團的組織分工及求職陷阱](https://www.tpc.moj.gov.tw/292885/976681/661783/1239674/post)" -->
 
-## 詐欺集團組織簡介
+### 角色分工
 
 由於**首腦**通常隱身幕後，因此往往也是最難抓到的詐騙集團成員。
 
@@ -355,17 +384,16 @@ div {
 
 ---
 
-## 法律責任
+<!-- _class: chapter -->
+<!-- _footer: Image by [Yihong Chen](https://unsplash.com/photos/a-red-and-white-tower-sitting-on-top-of-a-beach-XPFkzlmYiLY) -->
 
-各角色該不該罰、罰多重？
+![bg right:50%](https://images.unsplash.com/photo-1717002195012-b530be8db769)
 
-0. （人頭帳戶）
-1. 首腦
-2. 行騙者
-3. 取簿手
-4. 車手
-5. 監控手
-6. 收水手
+## 詐欺行為的法律責任
+
+各角色該不該罰？
+罰多重？
+實際案例
 
 ---
 
@@ -579,6 +607,11 @@ ul {
 
 ---
 
+<!-- _class: chapter -->
+<!-- _footer: Image by [Pratiksha Mohanty](https://unsplash.com/photos/stack-of-books-on-white-surface-yp5xbd60KPw) -->
+
+![bg](https://images.unsplash.com/photo-1602396111763-06556dd0063a)
+
 ### 進階 — 排序 :oncoming_police_car:
 
 0. （人頭帳戶）
@@ -617,11 +650,23 @@ treeView-beta
 <!-- _header: "車手" -->
 <!-- _footer: "最高法院115年度台上字第3246號刑事判決 + 臺灣高等法院臺中分院115年度金上訴字第288號刑事判決" -->
 
+<style scoped>
+p {
+  font-size: 0.9em;
+}
+ul {
+  font-size: 0.9em;
+  list-style-type: none;
+}
+</style>
+
 ### 法院認定
 
 林〇如遭到本案詐欺集團成員透過Facebook稱：可投資虛擬貨幣獲利等語，致陷於錯誤，依指示陸續交付款項後，察覺有異而報警，並配合員警進行偵辦，假意與詐欺集團不詳成員相約在臺中市某址附近交付現金新臺幣300萬元投資款；而陳〇龍自加入詐欺集團時起與該集團成員共同基於犯詐欺取財及洗錢的犯意聯絡，持用手機與詐欺集團成員聯絡，依其指示按照約定時間抵達上開地點，監控手則依詐欺集團成員指示，在旁監控並等待陳〇龍收取贓款。雙方見面後，陳〇龍取得林〇如交付的款項後，立即被埋伏的員警逮捕而未遂，並扣得手機1支及現金300萬元。
 
-:balance_scale: 判決主文：陳〇龍犯三人以上共同詐欺取財未遂罪，處有期徒刑1年2月。扣案手機1支沒收。
+* :balance_scale: 判決主文：
+陳〇龍犯三人以上共同詐欺取財未遂罪，處有期徒刑1年2月。
+扣案手機1支沒收。
 
 ---
 
@@ -696,13 +741,25 @@ treeView-beta
 <!-- _header: "取簿手" -->
 <!-- _footer: "最高法院111年度台上字第3973號刑事判決 + 臺灣高等法院110年度原上訴字第59號刑事判決" -->
 
+<style scoped>
+p {
+  font-size: 0.9em;
+}
+ul {
+  font-size: 0.9em;
+  list-style-type: none;
+}
+</style>
+
 ### 法院認定
 
 詐欺集團成員於向告訴人/被害人表示可協助申辦貸款，但須提供存摺、金融卡及密碼云云，致告訴人/被害人陷於錯誤，將帳戶之金融卡及存摺影本以便利超商交貨便寄至便利超商門市。
 
 陳〇嘉在便利超商門市領取包裹後，至捷運站附近之某店門口，交付予收水手/車手。
 
-:balance_scale: 判決主文：陳〇嘉犯如附表五編號1至11所示之罪，各處如附表五編號1至11所示之刑及沒收。應執行有期徒刑2年6月。
+* :balance_scale: 判決主文：
+陳〇嘉犯三人以上共同詐欺取財罪，各處如附表五編號1至11所示之刑及沒收。
+應執行有期徒刑2年6月。
 
 ---
 
@@ -823,13 +880,24 @@ treeView-beta
 <!-- _header: "人頭帳戶" -->
 <!-- _footer: "臺灣高等法院臺南分院113年度金上易字第647號刑事判決 + 臺灣嘉義地方法院113年度金易字第12號刑事判決" -->
 
+<style scoped>
+p {
+  font-size: 0.9em;
+}
+ul {
+  font-size: 0.9em;
+  list-style-type: none;
+}
+</style>
+
 ### 法院認定
 
 林〇霆以Line向詐欺集團成員詢問家庭代工訊息，其向林〇霆表示：每提供1張金融卡，可獲得新臺幣1萬元補助等語。
 
 林〇霆依其智識程度及一般社會生活之通常經驗，知悉不得將自己或他人向金融機構申請開立之帳戶交付、提供予他人使用，且金融帳戶為個人理財之工具，攸關個人財務甚切，具有高度屬人性質，若無正當理由交付、提供予他人使用，與一般商業、金融交易習慣不符，竟在超商門市內，將其申辦之金融卡5張，以交貨便方式寄交詐欺集團成員，而後以Line傳送金融卡密碼並提供帳戶予詐欺集團成員使用。
 
-:balance_scale: 判決主文：林〇霆處有期徒刑2月，如易科罰金，以新臺幣1,000元折算1日。
+* :balance_scale: 判決主文：
+林〇霆處有期徒刑2月，如易科罰金，以新臺幣1,000元折算1日。
 
 ---
 
@@ -887,7 +955,7 @@ li {
 }
 </style>
 
-### 「轉手」仍落在沒收的守備範圍
+### 「轉手」仍落在沒收的守備範圍 :clipboard:
 
 | 刑法 | 範圍 | 對象 |
 | :--- | ---: | :--- |
@@ -914,7 +982,7 @@ li {
 }
 </style>
 
-### 犯罪所得 ∈ 因犯罪所生之物
+### 犯罪所得 ∈ 因犯罪所生之物 :clipboard:
 
 | 刑法 | 範圍 | 對象 |
 | :--- | ---: | :--- |
@@ -955,7 +1023,28 @@ li {
 
 ---
 
-## 「知識跟道德，哪個重要？」
+<!-- _class: chapter -->
+<!-- _footer: Image by [Yu Hong Lee](https://unsplash.com/photos/an-aerial-view-of-a-pier-and-a-body-of-water-RiJ_a2pvsaI) -->
+
+![bg right:50%](https://images.unsplash.com/photo-1650039497262-fe6d3239a0be)
+
+## 知識 :vs: 道德
+
+哪個比較重要？
+
+---
+
+### 「正負號」
+
+> 工作能力，可以打0分到100分；
+> 健康，好比要乘上電腦的0或1；
+> 品德，則是最後加上的正負號。
+> 
+> — 郝明義
+
+---
+
+### 「知識跟道德，哪個重要？」
 
 > 我之前參加國家考試，那個時候都要考國文，特別是作文。
 > 
@@ -982,6 +1071,7 @@ li {
 
 <!-- _class: lead -->
 <!-- _paginate: false -->
+<!-- _footer: Image by [Hung Li](https://unsplash.com/photos/a-large-body-of-water-with-a-small-island-in-the-distance-4mOWQhX-cdI) -->
 
 ![bg](https://images.unsplash.com/photo-1704113953184-3490c1122453)
 

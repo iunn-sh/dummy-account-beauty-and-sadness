@@ -83,6 +83,10 @@ section.invert {
   color-scheme: dark;
 }
 
+section.chapter {
+  place-content: safe center center;
+}
+
 /* Code */
 code {
   border-radius: 0.25em;
