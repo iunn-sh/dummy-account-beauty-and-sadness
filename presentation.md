@@ -87,7 +87,7 @@ ul {
 
 :satellite: 好心幫朋友續約電信門號，所以在門市代填個人資料
 * 電信門市或業務要求客人「代朋友續約、代填資料」，若簽名或填寫身分資料，使文件上表彰為「本人」之意思，即可能構成行使偽造私文書，後續偵查時常被法院或檢警採為不利證據。
-* [例] 某手機門市要求顧客「幫朋友續約」，顧客照做後留下簽名。後因該門號涉及分期詐欺，警方調閱入網資料比對簽名，該顧客因「冒名簽署」遭偵辦，需出庭說明。
+* [例] 某手機門市要求顧客「幫朋友續約」，顧客照做後留下簽名。後因該門號涉及分期詐欺，警方調閱資料、比對簽名，該顧客因「冒名簽署」遭偵辦，需出庭說明。
 
 ---
 
@@ -123,12 +123,12 @@ ul {
 ## 法律知識問答 — 進階 :fallen_leaf:
 
 罰多重：由重到輕排序
-1. 殺人 / 重傷 / 傷害
-2. 強盜 / 搶奪 / 竊盜 / 侵占
-3. 電信詐欺 / 詐欺 / 偽造文書
-4. 洗錢
+1) 殺人 / 重傷 / 傷害
+2) 強盜 / 搶奪 / 竊盜 / 侵占
+3) 電信詐欺 / 詐欺 / 偽造文書
+4) 洗錢
 
-* :flashlight: 直覺
+- :flashlight: 直覺
 
 ---
 
@@ -640,11 +640,17 @@ ul {
 
 ---
 
-<!-- _footer: "最高法院115年度台上字第3246號刑事判決 + 臺灣高等法院臺中分院115年度金上訴字第288號刑事判決" -->
+<!-- _footer: "最高法院115台上3246刑事判決 + 臺灣高等法院臺中分院115金上訴288刑事判決" -->
+
+<style scoped>
+p {
+  font-size: 0.9em;
+}
+</style>
 
 ## 法院案例 — 車手
 
-<script src="https://mermaid.live/embed.js" async></script>
+<!-- <script src="https://mermaid.live/embed.js" async></script>
 <mermaid-embed src="https://mermaid.live/embed?theme=default&look=classic&mode=light&controls=0&grid=0" height="480">
 treeView-beta
 ├── 首腦
@@ -653,13 +659,18 @@ treeView-beta
 │   ├── 車手 :::highlight ## 陳〇龍
 │   ├── 監控手 ## 洪〇政
 │   └── 收水手 
-└── 人頭帳戶 ## 林〇如
-</mermaid-embed>
+├── 人頭帳戶
+└── 被害人 ## 林〇如
+</mermaid-embed> -->
+
+![bg right:35% contain](https://mermaid.ink/svg/pako:eNptjdtKAlEUhl9ls7w1Geeg476tZ-gi5mZqtgdwZmSaoYMIIlh2FhoqUSIL7ByCImGQ72LNduYt2iOZF7bYC_b61_f_qwgbpkYAg20RspojW0vrxFYVY-y2xm6ZPRR0LvxqJ1QqCKG57rePg4eGX66iSAT5j3X6Mgyae17ritbq3nl70eCdXUy6I3pwhP4J-zgMFxjjbC6TzbO2w9ig0fsq7wefJ4uOSfOOnt6HJsbR_hPjqDuac-4vR90B7fZnV2fu7-EwuHn13nu0Ngj1Ge3fPntvPbadpl5fslSvU4EoZKycBti2HBIFnVi6Go5QVAyEFLCzRCcKYPbVSFp18rYCilFitoJqrJmmPnNappPJAk6r-U02OQVNtclKTs1Yqv6nWsTQiLVsOoYNWOCnGYCLsA04IcYkiU_EUylB5GSeE6Kww5hELC7zsizy8YTAyVJKLEVhd3qVi8lJiWMlcklBFGUpXvoBIh_exw)
+
+陳〇龍透過網際網路結識真實姓名年籍均不詳之詐欺集團成員，依陳〇龍的智識程度與社會生活經驗，應可預見自己依詐欺集團成員指示向被害人收款後轉交上手等工作內容，可能是詐欺集團為掩飾、隱匿犯罪所得所為之分工，竟基於縱使參與詐欺集團而分擔領取被害人遭詐騙的贓款再層轉交付他人以製造金流斷點，亦不違背其本意的不確定故意，加入詐欺集團成員、洪〇政及真實姓名年籍不詳之成年人詐欺集團成員所組成三人以上，以實施詐術為手段，具有持續性、牟利性之有結構性詐欺集團犯罪組織（下稱本案詐欺集團）。
 
 ---
 
 <!-- _header: "車手" -->
-<!-- _footer: "最高法院115年度台上字第3246號刑事判決 + 臺灣高等法院臺中分院115年度金上訴字第288號刑事判決" -->
+<!-- _footer: "最高法院115台上3246刑事判決 + 臺灣高等法院臺中分院115金上訴288刑事判決" -->
 
 <style scoped>
 p {
@@ -731,11 +742,17 @@ p {
 
 ---
 
-<!-- _footer: "最高法院111年度台上字第3973號刑事判決 + 臺灣高等法院110年度原上訴字第59號刑事判決" -->
+<!-- _footer: "最高法院111台上3973刑事判決 + 臺灣高等法院110原上訴59刑事判決" -->
+
+<style scoped>
+p {
+  font-size: 0.9em;
+}
+</style>
 
 ## 法院案例 — 取簿手
 
-<script src="https://mermaid.live/embed.js" async></script>
+<!-- <script src="https://mermaid.live/embed.js" async></script>
 <mermaid-embed src="https://mermaid.live/embed?theme=default&look=classic&mode=light&controls=0&grid=0" height="480">
 treeView-beta
 ├── 首腦
@@ -744,13 +761,17 @@ treeView-beta
 │   ├── 車手 ## 蔡〇昌、陳〇惠
 │   ├── 監控手 
 │   └── 收水手 ## 某女、宋〇銘
-└── 人頭帳戶 ## 鍾〇彬、蕭〇榮、彭〇雍、張〇渝、林〇伶、吳〇盈
-</mermaid-embed>
+└── 人頭帳戶 ## 鍾〇彬等6人
+</mermaid-embed> -->
+
+![bg right:35% contain](https://mermaid.ink/svg/pako:eNptjltLAkEUx7_KcHo1Wd1L67zWZ-gh9mVrxwu4u7Lt0kUEKypvldASRkFKZAkaglFhVN-l2tH9Fs2I5UMNZ-Bc_r__OXlYsw0CGFyHkOUM2ZhfJa6uWR_-5YdfZIHC9tl4v807uwihWX_cqoV35-PiPpqbQ-NOnXaH4cVBcNmgpXpw2voLBCdno_47LVcRxjidSaWz7LucDs8Hn8XDoFH-LO5M887TPxtfKpzm6_wWE9FG7Rege82_wOjimh7fcmY286cz6j_S_sPUj17VgxtmsxPcV5lZWGlw4Ef6NRyGzV7wPKClx8m5R2_8xNfuqFdW2BAikHIyBmDX8UgETOKYOi8hr1kIaeCmiUk0wCw1SFL3sq4GmlVgWE63Vmzb_CEd20ulASf17DqrvJyhu2Qpo6cc3fztOsQyiLNoe5YLWFQmHoDzsAlYkaKyHFdiiYQoCWpcECOwxTXRmBpXVSkeU0RBlRNSIQLbk61CVF2QBfYkNZaQRFmQC99SjPKX)
+
+陳〇嘉能預見真實姓名年籍不詳之詐欺集團成員等成年人，組成具有持續性、牟利性、結構性並以實施詐術為手段之犯罪組織，且亦能預見其等所為行為，係詐欺集團遂行詐欺取財及洗錢犯罪之一部分，竟為圖詐欺集團所允諾之報酬，雖尚未達於有意使其發生之程度，然仍基於與詐欺集團共同為自己不法所有，而以縱使如此發生，亦不違背其等本意之上開犯罪不確定故意，參與犯罪組織而加入詐欺集團，擔任「取簿手」工作。
 
 ---
 
 <!-- _header: "取簿手" -->
-<!-- _footer: "最高法院111年度台上字第3973號刑事判決 + 臺灣高等法院110年度原上訴字第59號刑事判決" -->
+<!-- _footer: "最高法院111台上3973刑事判決 + 臺灣高等法院110原上訴59刑事判決" -->
 
 <style scoped>
 p {
@@ -764,7 +785,7 @@ ul {
 
 ### 法院認定
 
-詐欺集團成員於向告訴人/被害人表示可協助申辦貸款，但須提供存摺、金融卡及密碼云云，致告訴人/被害人陷於錯誤，將帳戶之金融卡及存摺影本以便利超商交貨便寄至便利超商門市。
+詐欺集團成員向告訴人/被害人表示可協助申辦貸款，但須提供存摺、金融卡及密碼云云，致告訴人/被害人陷於錯誤，將帳戶之金融卡及存摺影本以便利超商交貨便寄至便利超商門市。
 
 陳〇嘉在便利超商門市領取包裹後，至捷運站附近之某店門口，交付予收水手/車手。
 
@@ -870,26 +891,36 @@ p {
 
 ---
 
-<!-- _footer: "臺灣高等法院臺南分院113年度金上易字第647號刑事判決 + 臺灣嘉義地方法院113年度金易字第12號刑事判決" -->
+<!-- _footer: "臺灣高等法院臺南分院113金上易647刑事判決 + 臺灣嘉義地方法院113金易12刑事判決" -->
+
+<style scoped>
+p {
+  font-size: 0.9em;
+}
+</style>
 
 ## 法院案例 — 人頭帳戶
 
-<script src="https://mermaid.live/embed.js" async></script>
+<!-- <script src="https://mermaid.live/embed.js" async></script>
 <mermaid-embed src="https://mermaid.live/embed?theme=default&look=classic&mode=light&controls=0&grid=0" height="480">
 treeView-beta
 ├── 首腦
-│   ├── 行騙者 ## 葉〇〇
+│   ├── 行騙者 ## 「葉〇〇」
 │   ├── 取簿手
 │   ├── 車手
 │   ├── 監控手 
 │   └── 收水手
 └── 人頭帳戶 :::highlight ## 林〇霆
-</mermaid-embed>
+</mermaid-embed> -->
+
+![bg right:30% contain](https://mermaid.ink/svg/pako:eNptjs1Kw0AQx19lmV5jyccmJnvVZ_AguUSzTQpNUtYEP0ohCFWrVRFCRSyiCNWLUFCK1IPv0to0eQu3pbUHO8zAzu8__9mpwW5gUyAQMkq3ynR_bYeGlukPk84wiXmivNvOGt0pOUYILXn21Mpf77K4gQoFNIpb2U1zFJ_O8vL_9Pi6Pel9p82LFYu-zlfyyf1zevXCJbTUkrmWJv209zG3LeDPYJA_vo0_39OzPiKEuGXHrfAKpxemD7f8trxzAgI4rGwDCVlEBfAo86xpCzXTR8iE0KUeNYHwp01LVlQJTTD9OrdVLX87CLyFkwWR4wIpWZU93kVV2wrpZtlymOX9UUZ9m7KNIPJDIBjPdgCpwQEQDRdVVdYkw1CwqMuiIsAhEEUrSrqs61iWNEXUVQPXBTia_SoW9XVV5IF1ycCKKqr1XzUGwDg)
+
+林〇霆依其智識程度及一般社會生活之通常經驗，知悉不得將自己或他人向金融機構申請開立之帳戶交付、提供予他人使用，且金融帳戶為個人理財之工具，攸關個人財務甚切，具有高度屬人性質，若無正當理由交付、提供予他人使用，與一般商業、金融交易習慣不符，竟在超商門市內，將其申辦之金融卡5張，以交貨便方式寄交詐欺集團成員，而後以Line傳送金融卡密碼並提供帳戶予詐欺集團成員使用。
 
 ---
 
 <!-- _header: "人頭帳戶" -->
-<!-- _footer: "臺灣高等法院臺南分院113年度金上易字第647號刑事判決 + 臺灣嘉義地方法院113年度金易字第12號刑事判決" -->
+<!-- _footer: "臺灣高等法院臺南分院113金上易647刑事判決 + 臺灣嘉義地方法院113金易12刑事判決" -->
 
 <style scoped>
 p {
@@ -903,12 +934,30 @@ ul {
 
 ### 法院認定
 
-林〇霆以Line向詐欺集團成員詢問家庭代工訊息，其向林〇霆表示：每提供1張金融卡，可獲得新臺幣1萬元補助等語。
+林〇霆以Line向詐欺集團成員「葉〇〇」詢問家庭代工訊息，其向林〇霆表示：每提供1張金融卡，可獲得新臺幣1萬元補助等語。
 
-林〇霆依其智識程度及一般社會生活之通常經驗，知悉不得將自己或他人向金融機構申請開立之帳戶交付、提供予他人使用，且金融帳戶為個人理財之工具，攸關個人財務甚切，具有高度屬人性質，若無正當理由交付、提供予他人使用，與一般商業、金融交易習慣不符，竟在超商門市內，將其申辦之金融卡5張，以交貨便方式寄交詐欺集團成員，而後以Line傳送金融卡密碼並提供帳戶予詐欺集團成員使用。
+林〇霆在超商門市內，將其申辦之金融卡5張，以交貨便方式寄交詐欺集團成員，而後以Line傳送金融卡密碼並提供帳戶予詐欺集團成員使用。
+
+嗣「葉〇〇」及所屬詐欺集團成員取得上開帳戶資料後，分別向被害人施用詐術，致其等誤信為真而陷於錯誤，遂依指示匯款至帳戶內，且遭「葉〇〇」及所屬詐欺集團成員提領。
 
 * :balance_scale: 判決主文：
 林〇霆處有期徒刑2月，如易科罰金，以新臺幣1,000元折算1日。
+
+---
+
+<!-- _header: "人頭帳戶" -->
+
+<style scoped>
+p {
+  font-size: 0.85em;
+}
+</style>
+
+### 我也是被害人:question:
+
+臺灣嘉義地方法院113年度金易字第12號刑事判決 [一審]
+
+訊據林〇霆固坦承有在超商門市內，將其申辦帳戶之金融卡，以交貨便方式，提供予身分不詳之詐欺集團成員之事實。惟矢口否認有何無正當理由提供合計三個以上帳戶予他人使用之犯行。辯稱：我是因為上網看到家庭代工廣告，才加入網路手工社團，並透過Line與詐欺集團成員取得聯繫，詐欺集團成員告知我須要提供金融卡實名購買代工材料及領取補助，我才把金融卡寄交對方，並告知金融卡之密碼，我沒有要提供帳戶給對方使用之意思，我是被詐騙的等語。
 
 ---
 
@@ -943,6 +992,24 @@ p {
 是以，行為人已不能以申辦貸款、應徵工作為由，主張阻卻違法性，且行為人如對客觀構成要件具有故意時，即構成本罪。
 
 任何人無正當理由而將金融帳戶、虛擬帳號交付、提供給他人使用，就一般洗錢罪而言，過往實務雖以特定犯罪及一般洗罪罪之幫助犯論處，惟行為人主觀犯意證明困難，影響人民對司法之信賴，故認有立法予以截堵之必要，從而立法增訂洗錢防制法第22條第3項第2款、第1項規定。因此，洗錢防制法第22條第3項第2款、第1項規定，既是截堵在一般洗錢案件中，行為人幫助故意之證明困難，從而該規定與一般洗錢罪規定之差別，僅在前者不要求行為人主觀上具備幫助他人犯罪之故意（可視為將一般洗錢罪部分之客觀構成要件轉換為客觀處罰條件，以限縮行為人之主觀故意之認識範圍，詳下述），如行為人主觀上具備幫助他人犯罪之故意，則應成立一般洗錢罪。
+
+---
+
+<!-- _header: "人頭帳戶" -->
+
+<style scoped>
+p {
+  font-size: 0.85em;
+}
+</style>
+
+### 寄交金融卡 & 告知金融卡密碼:ng: — 有主觀故意
+
+臺灣嘉義地方法院113年度金易字第12號刑事判決 [一審]（續）
+
+是結合被告寄交金融卡、告知金融卡密碼之數舉動，客觀上已足認定被告將合計三個以上之自己金融帳戶提供予他人使用；而「葉〇〇」取得金融卡後，倘能得知金融卡密碼，常人皆可知悉「葉〇〇」即取得自由使用該等金融帳戶之控制權，被告就此客觀構成要件亦無認識不一致之錯誤可言，故有主觀認識之故意。又「葉〇〇」嗣後確也使用如附表一編號1至3所示之金融帳戶詐騙各告訴人並洗錢。從而被告縱然主張自己受騙，但對於洗錢防制法第22條第3項第2款、第1項所定罪名之客觀構成要件之主觀故意並無影響...，當具備主觀故意。
+
+甚且，被告告知「葉〇〇」金融卡密碼之緣由，係因「葉〇〇」以Line向被告稱「需要用到你的實體卡及密碼（按：餘略）」，有Line對話截圖在卷可佐，足見被告亦有提供金融帳戶供「葉〇〇」使用之意欲...，被告復不能以應徵代工為由主張阻卻違法性，自應該當本罪。
 
 ---
 
