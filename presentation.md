@@ -186,7 +186,7 @@ li {
 - 電信詐欺 / 詐欺 / 偽造文書
 - 洗錢
 
-![bg right:66% contain](https://scontent.ftpe21-1.fna.fbcdn.net/v/t39.99422-6/739243795_1902043757144021_7940631412479218906_n.png?stp=dst-jpg_tt6&cstp=mx1536x1024&ctp=s1536x1024&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=HQJuYgJgJTQQ7kNvwG3woue&_nc_oc=Adpv_wtkQc6loDUY7Robclq7MTxG5ucAVlr2rW0aZbDcsPhtEEiyrQ63Kaqy6QHVs0M&_nc_zt=14&_nc_ht=scontent.ftpe21-1.fna&_nc_gid=IPLcTzV3kkfS_Lbka56MDw&_nc_ss=7b289&oh=00_AQNd7KcClwZJPQMaD98kICqJ2Bz4WMmvgDdawftgK-YNBw&oe=6AD0BF9B)
+![bg right:66% contain](https://imgcdn.cna.com.tw/www/WebPhotos/1024/20260707/1152x768_wmkn_0_C20260707003018.jpg)
 
 ---
 
